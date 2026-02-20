@@ -1,0 +1,11 @@
+{
+  "name": "simenmorch",
+  "owner": { "name": "Simen Morch" },
+  "plugins": [
+    {
+      "name": "simenmorch-skills",
+      "source": "./plugin",
+      "description": "Personal skills collection"
+    }
+  ]
+}
