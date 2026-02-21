@@ -52,6 +52,8 @@ From the LICENSE file content, identify the license type (e.g. MIT, Apache-2.0, 
 Check whether `plugin/skills/<skill-name>/` already exists using the Glob tool.
 If it does, inform the user that the skill already exists and stop without creating any files.
 
+> **Important:** Do not run any Bash commands during this skill. Do not write files to any path containing `~/` — all writes must go to absolute paths under the repository root. Using `~/` in a Bash command or file path without shell expansion creates a literal `~` directory in the working directory.
+
 ## Phase 5: Create Skill Files
 
 Create two files:

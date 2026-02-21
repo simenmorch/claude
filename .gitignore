@@ -1,0 +1,2 @@
+# Prevent literal ~ directory from being tracked (created when ~ isn't expanded in shell commands)
+/~
