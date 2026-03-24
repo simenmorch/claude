@@ -26,3 +26,4 @@ Add this repo as a marketplace in `~/.claude/plugins/known_marketplaces.json`:
 | [make-plan](plugin/skills/make-plan/) | Create a detailed, phased implementation plan with documentation discovery |
 | [frontend-design](plugin/skills/frontend-design/) | Create distinctive, production-grade frontend interfaces with high design quality |
 | [debugger](plugin/skills/debugger/) | Systematic debugging and root cause analysis for identifying and fixing software issues |
+| [grill-me](plugin/skills/grill-me/) | Interview the user relentlessly about a plan or design until reaching shared understanding |
